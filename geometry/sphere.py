@@ -21,6 +21,6 @@ def volume_sphere(radius: float) -> float:
 
 if __name__=='__main__':
 
-    radius=2.0
+    radius=3.0
     volume_sphere = volume_sphere(radius=radius)
     print(f"Volume of sphere (radius={radius} m): {volume_sphere:0.3f} m³\n")
